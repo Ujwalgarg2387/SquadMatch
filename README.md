@@ -16,7 +16,7 @@ India's gaming matchmaking platform — find teammates based on game, role, and 
 |-------|------------|
 | Frontend | Next.js 14, TailwindCSS, TypeScript |
 | Backend | Supabase (PostgreSQL + Auth + Realtime) |
-| Payments | Razorpay (₹79/mo Pro plan) |
+| Payments | Razorpay |
 
 ---
 
@@ -91,12 +91,6 @@ npm run dev
 ```
 
 ---
-
-### 5. Deploy to Vercel
-
-```bash
-npx vercel
-```
 
 > Add all env vars in the Vercel dashboard after deploying.
 
